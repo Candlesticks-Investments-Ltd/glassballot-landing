@@ -10,6 +10,17 @@ To get started with this site, first install the npm dependencies:
 npm install
 ```
 
+Ensure to add the file `.env.local` to the root folder and adding the following keys:
+
+```bash
+NEXT_PUBLIC_RECAPTCHA_SITE_KEY=<API-KEY>
+NEXT_PUBLIC_RECAPTCHA_SECRET_KEY=<SECRET-KEY>
+NEXT_PUBLIC_SENDGRID_API_KEY=<API-KEY>
+
+```
+
+Recaptcha keys can be obtained from [Google](https://www.google.com/recaptcha/admin/create) and Sendgrid API keys can be obtained from [Sendgrid](https://app.sendgrid.com/settings/api_keys).
+
 Next, run the development server:
 
 ```bash
