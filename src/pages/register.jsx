@@ -258,7 +258,6 @@ export default function Register() {
   };
 
   const sendEmail = async (formData) => {
-    console.log(formData);
     try {
       const response = await fetch('/api/send', {
         method: 'POST',
@@ -267,7 +266,6 @@ export default function Register() {
         },
         body: JSON.stringify(formData),
       });
-      console.log(response);
 
       if (response.ok) {
         setEmailStatus('success');

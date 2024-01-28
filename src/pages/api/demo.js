@@ -10,8 +10,8 @@ export default async function handler(req, res) {
       const { email } = req.body;
 
       const content = {
-        to: ['etadriano2@gmail.com','1040481@cuea.edu'],
-        from: 'support@newageai.tech',
+        to: ['marcelus@candlesticksinvestments.com','tituskinyui@candlesticksinvestments.com'],
+        from: 'adrian@candlesticksinvestments.com',
         subject: `New Demo Request`,
         text: `Email: ${email}\n`,
       };
@@ -19,7 +19,6 @@ export default async function handler(req, res) {
       await sgMail.send(content);
       res.status(200).json({ message: 'Demo request sent successfully' });
     } catch (error) {
-      console.log("Error: ",error);
       res.status(500).json({ message: 'Error sending email' });
     }
   } else {
