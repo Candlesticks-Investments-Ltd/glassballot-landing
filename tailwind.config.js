@@ -1,0 +1,77 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors')
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./src/**/*.{js,jsx}'],
+  theme: {
+    fontSize: {
+      xs: ['0.75rem', { lineHeight: '1rem' }],
+      sm: ['0.875rem', { lineHeight: '1.5rem' }],
+      base: ['1rem', { lineHeight: '1.75rem' }],
+      lg: ['1.125rem', { lineHeight: '2rem' }],
+      xl: ['1.25rem', { lineHeight: '2rem' }],
+      '2xl': ['1.5rem', { lineHeight: '2rem' }],
+      '3xl': ['2rem', { lineHeight: '2.5rem' }],
+      '4xl': ['2.5rem', { lineHeight: '3.5rem' }],
+      '5xl': ['3rem', { lineHeight: '3.5rem' }],
+      '6xl': ['3.75rem', { lineHeight: '1' }],
+      '7xl': ['4.5rem', { lineHeight: '1.1' }],
+      '8xl': ['6rem', { lineHeight: '1' }],
+      '9xl': ['8rem', { lineHeight: '1' }],
+    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      white: '#ffffff',
+      accent: '#22223b',
+      yellow: colors.yellow,
+      'accent-dark': '#22223B',
+      'accent-light': '#9E7CFF',
+      'accent-lighter': '#B9A0FF',
+      'light-base': '#f5f8fa',
+      green: colors.green,
+      orange: colors.orange,
+      red: colors.red,
+      blue: colors.blue,
+      jacarta: {
+          base: '#4A4E69',
+          50: '#F4F4F6',
+          100: '#E7E8EC',
+          200: '#C4C5CF',
+          300: '#A1A2B3',
+          400: '#7D7F96',
+          500: '#5A5D79',
+          600: '#363A5D',
+          700: '#131740',
+          800: '#101436',
+          900: '#0D102D',
+      },
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      emerald: colors.emerald,
+      indigo: colors.indigo,
+      yellow: colors.yellow,
+      stone: colors.stone,
+      sky: colors.sky,
+      neutral: colors.neutral,
+      gray: colors.gray,
+      slate: colors.slate,
+    },
+    extend: {
+      borderRadius: {
+        '4xl': '2rem',
+      },
+      fontFamily: {
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        display: ['Lexend', ...defaultTheme.fontFamily.sans],
+      },
+      maxWidth: {
+        '2xl': '40rem',
+      },
+    },
+  },
+  plugins: [require('@tailwindcss/forms')],
+};
