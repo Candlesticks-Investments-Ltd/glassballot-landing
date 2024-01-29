@@ -23,25 +23,25 @@ export function Footer() {
           </div>
           <nav className="-mx-5 mb-2 flex flex-wrap justify-center" aria-label="Footer">
             <div className="px-2 py-2">
-              <a href="/cookie-policy" className="text-xs text-gray-500 hover:text-gray-900">
+              <Link href="/cookie-policy" className="text-xs text-gray-500 hover:text-gray-900">
                 Cookie Policy
-              </a>
+              </Link>
             </div>
             <div className="px-2 py-2 text-gray-500">
               /
             </div>
             <div className="px-2 py-2">
-              <a href="/terms-of-use" className="text-xs text-gray-500 hover:text-gray-900">
+              <Link href="/terms-of-use" className="text-xs text-gray-500 hover:text-gray-900">
                 Terms of Use
-              </a>
+              </Link>
             </div>
             <div className="px-2 py-2 text-gray-500">
               /
             </div>
             <div className="px-2 py-2">
-              <a href="/privacy-policy" className="text-xs text-gray-500 hover:text-gray-900">
+              <Link href="/privacy-policy" className="text-xs text-gray-500 hover:text-gray-900">
                 Privacy Policy
-              </a>
+              </Link>
             </div>
           </nav>
         </div>

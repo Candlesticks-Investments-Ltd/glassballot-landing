@@ -1,5 +1,6 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import Link from "next/link";
 
 export default function PrivacyPolicy() {
     return (
@@ -128,7 +129,7 @@ export default function PrivacyPolicy() {
                             <br /><br />
                             b. You can choose to disable cookies through your browser settings, but this may affect the functionality of our platform.
                             <br /><br />
-                            <b>Children's Privacy</b>
+                            <b>Children&apos;s Privacy</b>
                             <br /><br />
                             Our platform is not intended for use by individuals under the age of 18. Unless, requested by an education institution for purposes of conducting an election.
                             <br /><br />
@@ -138,7 +139,7 @@ export default function PrivacyPolicy() {
                             <br /><br />
                             <b>Contact Information</b>
                             <br /><br />
-                            If you have any questions or concerns about our Privacy Policy, please contact us at <a className="text-accent" href="mailto:info@glassballot.xyz">info@glassballot.xyz. </a>
+                            If you have any questions or concerns about our Privacy Policy, please contact us at <Link className="text-accent" href="mailto:info@glassballot.xyz">info@glassballot.xyz. </Link>
                             By using GlassBallot, you agree to the terms of this Privacy Policy. If you do not agree with the practices described in this policy, please refrain from using our platform.
                         </pre>
 

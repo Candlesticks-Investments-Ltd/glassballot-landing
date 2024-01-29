@@ -1,5 +1,6 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import Link from "next/link";
 
 export default function CookiesPolicy() {
     return (
@@ -108,7 +109,7 @@ export default function CookiesPolicy() {
                             <br /><br />
                             <b>Changes to this Cookies Policy</b> We may update this Cookies Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Please revisit this page regularly to stay informed about our use of cookies.
                             <br /><br />
-                            <b>Contact Information</b> If you have any questions or concerns about our use of cookies or this Cookies Policy, please contact us at <a className="text-accent" href="mailto:info@glassballot.xyz">info@glassballot.xyz. </a>
+                            <b>Contact Information</b> If you have any questions or concerns about our use of cookies or this Cookies Policy, please contact us at <Link className="text-accent" href="mailto:info@glassballot.xyz">info@glassballot.xyz. </Link>
                             By using GlassBallot, you consent to the use of cookies as described in this Cookies Policy. If you do not agree to the use of cookies, please disable them as outlined in Section 3 above or refrain from using our platform.
                         </pre>
 

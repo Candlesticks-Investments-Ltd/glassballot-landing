@@ -1,5 +1,6 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import Link from "next/link";
 
 export default function TermsOfUse() {
     return (
@@ -120,8 +121,8 @@ export default function TermsOfUse() {
                             <br /> <br /><b>9. Termination </b><br /> <br />
                             GlassBallot reserves the right to terminate or suspend your account and access to the platform, without prior notice, for any reason or no reason, including if we believe that you have violated these Terms of Use.
                             <br /> <br /><b>10. Changes to Terms of Use</b><br /> <br />
-                            GlassBallot reserves the right to change or modify these Terms of Use at any time and in our sole discretion. We will provide notice of such changes by updating the "Last Updated" date at the beginning of these terms.
-                            <br /> <br /><b>11. Contact Information</b> <br /> <br />If you have any questions or concerns about these Terms of Use, please contact us at <a className="text-accent" href="mailto:info@glassballot.xyz">info@glassballot.xyz. </a>
+                            GlassBallot reserves the right to change or modify these Terms of Use at any time and in our sole discretion. We will provide notice of such changes by updating the &apos;Last Updated&apos; date at the beginning of these terms.
+                            <br /> <br /><b>11. Contact Information</b> <br /> <br />If you have any questions or concerns about these Terms of Use, please contact us at <Link className="text-accent" href="mailto:info@glassballot.xyz">info@glassballot.xyz. </Link>
                             By using GlassBallot, you acknowledge that you have read, understood, and agreed to these Terms of Use.
 
                         </pre>
