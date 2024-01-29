@@ -5,6 +5,13 @@ import Link from "next/link";
 export default function PrivacyPolicy() {
     return (
         <>
+            <Head>
+                <title>GlassBallot - Privacy Policy</title>
+                <meta
+                    name="description"
+                    content="This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you use our web platform. By using our platform"
+                />
+            </Head>
             <Header />
             <div className="relative pt-8 pb-16 bg-white overflow-hidden">
                 <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">

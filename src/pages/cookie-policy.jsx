@@ -5,6 +5,13 @@ import Link from "next/link";
 export default function CookiesPolicy() {
     return (
         <>
+            <Head>
+                <title>GlassBallot - Cookie Policy</title>
+                <meta
+                    name="description"
+                    content="This Cookies Policy explains how we use cookies and similar technologies on our platform."
+                />
+            </Head>
             <Header />
             <div className="relative pt-8 pb-16 bg-white overflow-hidden">
                 <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">

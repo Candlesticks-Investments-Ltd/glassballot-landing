@@ -5,6 +5,13 @@ import Link from "next/link";
 export default function TermsOfUse() {
     return (
         <>
+            <Head>
+                <title>GlassBallot - Terms of Use</title>
+                <meta
+                    name="description"
+                    content="These Terms of Use govern your use of our web platform and related services."
+                />
+            </Head>
             <Header />
             <div className="relative pt-8 pb-16 bg-white overflow-hidden">
                 <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
