@@ -4,6 +4,7 @@ import imageCandidate from '@/images/screenshots/election.png'
 import { StarIcon } from '@heroicons/react/24/solid';
 import { FeedbackFailed, FeedbackSuccess } from '@/pages/register';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export function Hero() {
 
@@ -165,10 +166,13 @@ export function Hero() {
                 <p className="mt-3 text-sm text-accent/50 sm:mt-4">
                   Reach out and we will send you an exclusive demo. By providing your email, you agree to
                   our{' '}
-                  <a href="#" className="font-medium text-accent">
+                  <Link href="/terms-of-use" className="font-medium text-accent">
                     Terms of Service
-                  </a>
-                  .
+                  </Link>
+                  {' '}and{' '}
+                  <Link href="/privacy-policy" className="font-medium text-accent">
+                    Privacy Policy
+                  </Link>
                 </p>
               </div>
             </div>

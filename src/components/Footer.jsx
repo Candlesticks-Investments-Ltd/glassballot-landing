@@ -8,13 +8,40 @@ export function Footer() {
   return (
     <footer className="bg-white">
       <Container>
-        <div className="pb-16 pt-8">
+        <div className="pb-8 sm:pb-16 pt-8">
           <Logo className="mx-auto h-10 w-auto" />
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
               <NavLink href="/#features">Features</NavLink>
               <NavLink href="/#stats">Achievements</NavLink>
               <NavLink href="/#pricing">Pricing</NavLink>
+            </div>
+          </nav>
+          <div className='flex justify-center'>
+            <hr className='mt-8 mb-4 divide-slate-400/20 w-[90%] text-center md:w-1/2' />
+
+          </div>
+          <nav className="-mx-5 mb-2 flex flex-wrap justify-center" aria-label="Footer">
+            <div className="px-2 py-2">
+              <a href="/cookie-policy" className="text-xs text-gray-500 hover:text-gray-900">
+                Cookie Policy
+              </a>
+            </div>
+            <div className="px-2 py-2 text-gray-500">
+              /
+            </div>
+            <div className="px-2 py-2">
+              <a href="/terms-of-use" className="text-xs text-gray-500 hover:text-gray-900">
+                Terms of Use
+              </a>
+            </div>
+            <div className="px-2 py-2 text-gray-500">
+              /
+            </div>
+            <div className="px-2 py-2">
+              <a href="/privacy-policy" className="text-xs text-gray-500 hover:text-gray-900">
+                Privacy Policy
+              </a>
             </div>
           </nav>
         </div>

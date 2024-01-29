@@ -8,6 +8,7 @@ import ReCAPTCHA from 'react-google-recaptcha'
 import { CheckCircleIcon, ExclamationTriangleIcon, XMarkIcon } from '@heroicons/react/24/solid'
 import { Transition } from '@headlessui/react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -434,9 +435,9 @@ export default function Register() {
                   <div className="ml-3">
                     <p className="text-sm text-gray-500">
                       By selecting this, you agree to our{' '}
-                      <a href="#" className="font-medium text-accent">
+                      <Link href="/privacy-policy" target='_blank' className="font-medium text-accent">
                         Privacy Policy
-                      </a>
+                      </Link>
                       .
                     </p>
                   </div>
