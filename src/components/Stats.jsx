@@ -21,10 +21,9 @@ export default function Stats() {
             </div>
           </div>
           <h2 className="mt-6 text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            We have delivered what our customers want every time
-          </h2>
+          We have exceeded our customers’ expectation in delivering a memorable election experience          </h2>
           <p className="mt-6 text-lg text-gray-500">
-            We are a team of passionate people who believe in the power of technology to improve the lives of our customers. We are dedicated to building products that are simple, beautiful, and easy to use.
+          We are a team that is dedicated to crafting a user experience that simplifies the voting pipeline between the client and the voter. We empower communities in making informed decisions while electing their leaders on an auditable, secure and transparent platform.
           </p>
           <div className="mt-8 overflow-hidden">
             <dl className="-mx-8 -mt-8 flex flex-wrap">

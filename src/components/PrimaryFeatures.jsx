@@ -30,7 +30,7 @@ export function PrimaryFeatures() {
           Personalize your elections
         </p>
         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-          Our system ensures that your elections look and feel like yours, giving your users a unique and personalized voting experience
+        We provide our clients and voters with a bespoke voting experience on a user-friendly platform that fosters a sense of connection between the candidates and voters
         </p>
       </div>
       <div className="mt-12 mb-20 sm:mb-24 lg:mb-40">
