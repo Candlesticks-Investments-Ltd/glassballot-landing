@@ -2,7 +2,7 @@
 
 import sgMail from '@sendgrid/mail';
 
-sgMail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY);
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
@@ -12,7 +12,7 @@ export default async function handler(req, res) {
       const content = {
         to: ['marcelus@candlesticksinvestments.com','tituskinyui@candlesticksinvestments.com'],
         from: 'adrian@candlesticksinvestments.com',
-        subject: `New Demo Request`,
+        subject: `New GlassBallot Demo Request`,
         text: `Email: ${email}\n`,
       };
 
