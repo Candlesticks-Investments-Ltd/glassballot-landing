@@ -62,8 +62,8 @@ export function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0 text-center lg:text-left">
-            Copyright &copy; {new Date().getFullYear()} GlassBallot. <br />Powered by
-            <Link href="https://candlesticksinvestments.com" className="text-accent font-bold"> Candlesticks Investments LTD.</Link>
+            Copyright &copy; {new Date().getFullYear()} GlassBallot <br />Powered by
+            <Link href="https://candlesticksinvestments.com" className="text-accent font-bold"> Candlesticks Investments LTD</Link>
           </p>
         </div>
       </Container>

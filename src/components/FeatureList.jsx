@@ -9,14 +9,14 @@ const features = [
     { name: 'Time-based rendering', description: 'The content and functionality of the voting interface is modified based on the voting duration or predefined schedule provided by the client.' },
     {
         name: 'Candidate profile',
-        description: 'Each candidate has their own profile which will be visible during the campaign period and during the elections. Their profile will capture their photo, slogan, and manifesto that can be shared on social media pages.',
+        description: 'Each candidate has a profile that captures their photo, slogan and manifesto that is sharable on social media through a unique link',
     },
-    { name: 'Real-time tally & results', description: 'The candidates and voters are able to see the votes being tallied live, and the results are displayed immediately when the countdown stops.' },
-    { name: 'User-friendly platform', description: 'An easy-to-use platform with clear instructions and a guided layout that is easy to use on any device.' },
+    { name: 'Real-time tally & results', description: 'The votes are tallied real-time, and the election results are displayed immediately after the countdown stops' },
+    { name: 'User-friendly platform', description: 'Easy-to-use platform with clear instructions and a guided layout that is compatible with any device' },
     { name: 'Action confirmation', description: 'The admin, candidates, and voters are required to confirm their actions on the platform to eliminate the risks of "By-mistake."' },
     { name: 'User authority', description: 'The admin, candidates, and voters have different access controls before, during, and after the elections.' },
     { name: 'Auditability', description: 'Track your vote\'s journey through the system, from casting to counting, with a detailed audit trail that builds trust and eliminates uncertainty.' },
-    { name: 'Persons with disability', description: 'Our platform has basic features for people with various disabilities, and we can provide in-house support for people who do not have the capacity to cast their votes on their own devices.' },
+    { name: 'Persons with disability', description: 'Our platform has basic features for people with various disabilities, and we can provide in-house support for people who cannot cast their votes on their own devices.' },
 ];
 export default function FeatureList() {
     return (

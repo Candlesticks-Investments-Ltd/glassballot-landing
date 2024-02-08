@@ -7,6 +7,7 @@ import Stats from '@/components/Stats';
 import FeatureList from '@/components/FeatureList';
 import Price from '@/components/Price';
 import Recommendation from '@/components/Recommendation';
+import ClientLogos from '@/components/ClientLogos';
 
 export default function Home() {
   return (
@@ -23,7 +24,8 @@ export default function Home() {
         <Hero />
         <PrimaryFeatures />
         <Stats/>
-        <Recommendation/>
+        {/* <Recommendation/> */}
+        <ClientLogos />
         <FeatureList />
         <Price/>
       </main>

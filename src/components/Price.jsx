@@ -54,7 +54,7 @@ export default function Price() {
               <div className="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
                 <p className="text-lg leading-6 font-medium text-gray-900">Pay only for your voters</p>
                 <div className="mt-4 flex items-center justify-center text-5xl font-extrabold text-gray-900">
-                  <span>$0.15/voter</span>
+                  <span>$0.15/vote</span>
                   <span className="ml-3 text-xl font-medium text-gray-500">USD</span>
                 </div>
                 <p className="mt-4 text-sm">
