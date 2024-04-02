@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import screenshotConfirm from '@/images/screenshots/home.png';
+import screenshotConfirm from '@/images/screenshots/hero-personalize.png';
 
 
 export function PrimaryFeatures() {
@@ -34,7 +34,7 @@ export function PrimaryFeatures() {
       </div>
       <div className="mt-12 mb-20 sm:mb-24 lg:mb-40">
         <Image
-          className="rounded-[20px] shadow-xl ring-1 ring-accent ring-opacity-10"
+          className=""
           src={screenshotConfirm}
           alt=""
         />

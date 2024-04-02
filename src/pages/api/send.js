@@ -10,7 +10,7 @@ export default async function handler(req, res) {
       const { f_name, l_name, email, company_name, phone, message } = req.body;
 
       const content = {
-        to: ['marcelus@candlesticksinvestments.com','tituskinyui@candlesticksinvestments.com'],
+        to: ['info@glassballot.xyz'],
         from: 'adrian@candlesticksinvestments.com',
         subject: `New GlassBallot Inquiry by ${f_name} from ${company_name}`,
         text: `Name: ${f_name} ${l_name}\nEmail: ${email}\nCompany: ${company_name}\nPhone: ${phone}\nMessage: ${message}`,

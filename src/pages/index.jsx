@@ -8,6 +8,9 @@ import FeatureList from '@/components/FeatureList';
 import Price from '@/components/Price';
 import Recommendation from '@/components/Recommendation';
 import ClientLogos from '@/components/ClientLogos';
+import Candidate from '@/components/Candidate';
+import ComprehensiveFeatures from '@/components/ComprehensiveFeatures';
+import Accessibility from '@/components/Accessibility';
 
 export default function Home() {
   return (
@@ -23,11 +26,16 @@ export default function Home() {
       <main>
         <Hero />
         <PrimaryFeatures />
+        <ComprehensiveFeatures/>
+        {/* <Accessibility /> */}
+
         <Stats/>
         {/* <Recommendation/> */}
         <ClientLogos />
-        <FeatureList />
+
         <Price/>
+        {/* <Candidate/> */}
+
       </main>
       <Footer />
     </>

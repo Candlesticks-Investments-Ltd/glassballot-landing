@@ -76,7 +76,6 @@ export function Hero() {
   };
 
   const sendEmail = async (formData) => {
-    console.log(formData);
     try {
       const response = await fetch('/api/demo', {
         method: 'POST',
@@ -85,7 +84,6 @@ export function Hero() {
         },
         body: JSON.stringify(formData),
       });
-      console.log(response);
 
       if (response.ok) {
         setEmailStatus('success');

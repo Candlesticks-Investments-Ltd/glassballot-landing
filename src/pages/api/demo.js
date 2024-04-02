@@ -10,7 +10,7 @@ export default async function handler(req, res) {
       const { email } = req.body;
 
       const content = {
-        to: ['marcelus@candlesticksinvestments.com','tituskinyui@candlesticksinvestments.com'],
+        to: ['info@glassballot.xyz'],
         from: 'adrian@candlesticksinvestments.com',
         subject: `New GlassBallot Demo Request`,
         text: `Email: ${email}\n`,
