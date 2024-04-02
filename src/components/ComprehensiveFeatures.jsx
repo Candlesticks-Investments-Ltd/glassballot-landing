@@ -228,6 +228,7 @@ export default function ComprehensiveFeatures() {
                 <a
                                 className="inline-flex  items-center w-max  py-2 px-5 mt-5 text-center border bg-white border-transparent rounded-md shadow-md text-base font-medium text-slate-700 hover:bg-gray-50 sm:w-auto"
                                 href="https://userway.org/widget/"
+                                rel='noreferrer'
                                 target='_blank'
                             >
                                 <div className='text-accent'>Learn More</div>

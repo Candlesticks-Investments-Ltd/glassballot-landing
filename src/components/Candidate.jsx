@@ -58,6 +58,7 @@ export default function Candidate() {
                             <a
                                 className="inline-flex items-center w-max py-2 px-5 text-center border bg-white border-transparent rounded-md shadow-md text-base font-medium text-slate-700 hover:bg-gray-50 md:w-auto"
                                 href="https://demo.glassballot.xyz/candidate/emily-brown"
+                                rel="noreferrer"
                                 target='_blank'
                             >
                                 <div className='text-accent'>View Example</div>
